@@ -1,3 +1,5 @@
+import java.util.concurrent.TimeUnit;
+
 public class Image implements Element{
     private String imageName;
 
@@ -6,6 +8,6 @@ public class Image implements Element{
     }
 
     public void print(){
-        System.out.print("The image is "+ this.imageName+ "\n");
+        System.out.print(this.imageName+ "\n");
     }
 }
